@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林英魁 & 付伟，2021.06.19</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        .top-left {
+            position: absolute;
+            top: -25px;
+            left:-20px;
+            width: 40%;
+            background-position: top left;
+            background-image: url("./left.png");
+            height: 630px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .bottom-right {
+            position: absolute;
+            bottom: 20px;
+            right: 0px;
+            width: 40%;
+            background-position: center right;
+            background-image: url("./right.png");
+            height: 630px;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        @media only screen and (max-width: 600px) {
+            .bottom-right,
+            .top-left {
+                height: 230px;
+            }
+        }
+        .main-title {
+            margin: 150px auto 50px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-image: url("./middle.png");
+            width: 60%;
+            height: 270px;
+        }
+        .bottom {
+            margin: 100px auto 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-image: url("./bottom.png");
+            width: 50%;
+            height: 80px;
+        }
+        .website-title {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <!-- <div class="website-title">
+            <img src="banner.png" alt="" width=250px>
+        </div> -->
+        <div class="top-left">
+            <!-- <img src="left.png" alt=""> -->
+        </div>
+        <div class="bottom-right">
+            <!-- <img src="right.png" alt=""> -->
+        </div>
+        <div class="main-content">
+            <div class="main-title">
+                <!-- <img src="./middle.png" alt=""> -->
+            </div>
+            <div class="bottom">
+                <!-- <img src="bottom.png" alt=""> -->
+            </div>
+        </div>
+        <!-- <div class="footer">
+            20210619.wedding
+        </div> -->
+    </div>
+</body>
+</html>
